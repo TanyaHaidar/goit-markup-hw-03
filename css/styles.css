@@ -162,11 +162,20 @@ img {
 
 /* two */
 
-.taste-title {
+.power {
     padding: 120px 0;
 }
 
-.visually-hidden
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
 
 .power-container {
     display: flex;
@@ -219,7 +228,7 @@ img {
 }
 
 .taste-title {
-    margin-bottom: 72px 0;
+    margin-bottom: 72px;
     gap: 24px;
     font-weight: 700;
     font-size: 36px;
@@ -236,7 +245,7 @@ img {
 
 .taste-subtitle {
     text-align: center;
-    margin-bottom: 8px 0;
+    margin-bottom: 8px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -258,8 +267,8 @@ img {
 
 
 .portfolio-title {
-    padding: 120px 0;
-    margin-bottom: 72px 0;
+    padding: 120px 0 120px 0;
+    margin-bottom: 72px;
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -283,14 +292,13 @@ img {
 }
 
 .container-two {
-    padding: 32px 16;
+    padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px 0;
 }
 
 .portfolio-subtitle {
-    margin-bottom: 8px 0;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -310,16 +318,16 @@ img {
 
 .page-footer {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
-.container-footer {
-    padding: 100px 0;
+.footer-logo {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-logo .logo-part {
     color: #f4f4fd;
-    display: inline-block;
-    margin-bottom: 16px;
 }
 
 .text-footer {
